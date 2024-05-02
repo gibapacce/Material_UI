@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: #eaf7ea; /* Cor de fundo verde claro */
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 20vmin; /* Reduzindo o tamanho do logo */
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: none; /* Removendo a animação do logo */
+  }
+}
+
+.App-header {
+  background-color: #61bf61; /* Cor de fundo verde */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px; /* Adicionando um pouco de espaçamento interno */
+}
+
+.App-link {
+  color: white; /* Mudando a cor do link para branco */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
